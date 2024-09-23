@@ -1,0 +1,34 @@
+{
+    "name": "move",
+    "maps": [
+        {
+            "name": "p1",
+            "id": "e964e883-de09-4b31-9b1b-9077c86dc60c",
+            "actions": [
+                {
+                    "name": "Drive",
+                    "type": "Value",
+                    "id": "b20e98dc-a4d7-4cd3-afff-a39ff353bc50",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5fc291fa-89fc-4fbf-820f-6871c320f3d4",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drive",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
